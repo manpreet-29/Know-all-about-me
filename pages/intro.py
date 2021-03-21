@@ -3,10 +3,7 @@ import streamlit as st
 from PIL import Image
 def write():
     """Used to write the about page in the app.py file"""
-    
-    
-    original = Image.open('C:/Users/CV110/Desktop/Copy of In Partnership with/link.jpg')
-    st.image(original, use_column_width=None, clamp=False, channels="RGB", output_format="auto" )
+   
     st.title("Hello.. Welcome.. :woman-raising-hand::woman-raising-hand:!!")
     st.markdown(
             """ \n \n # Who Am I?
